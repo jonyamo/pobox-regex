@@ -51,10 +51,10 @@ $ npm install pobox-regex
 ```js
 const poboxRegex = require('pobox-regex');
 
-poboxRegex.test('PO Box 123, Derry, ME');
+poboxRegex().test('PO Box 123, Derry, ME');
 // => true
 
-poboxRegex.test('123 Box Turtle Circle, Derry, ME');
+poboxRegex().test('123 Box Turtle Circle, Derry, ME');
 // => false
 ```
 
